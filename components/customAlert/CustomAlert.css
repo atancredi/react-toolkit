@@ -1,0 +1,23 @@
+.dashboard-alert {
+    position: fixed !important;
+    top: 30px;
+    right: 30px;
+    min-width: 200px !important;
+    max-width: 500px !important;
+    width: fit-content !important;
+    padding: 20px !important;
+    word-wrap: break-word;
+    z-index: 100;
+    border-radius: 1rem;
+}
+
+
+.dashboard-alert.error{
+    background-color: #F1796A !important;
+
+}
+
+.dashboard-alert.warning{
+    background-color: #FFDD33 !important;
+
+}
