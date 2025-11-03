@@ -1,0 +1,33 @@
+.t-container {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.t-toolbar-wrapper {
+    height: 100vh;
+    width: fit-content;
+    overflow-y: scroll;
+}
+
+.t-toolbar-container{
+    width: 30vw;
+    height: 100vh;
+    border: 1px solid black;
+    border-top: none;
+    border-bottom: none;
+    /* position: fixed; */
+}
+
+.t-content-wrapper{
+    height: 100vh;
+    width: fit-content;
+    overflow-y: scroll;
+}
+
+.t-content-container{
+    width: 70vw;
+    min-height: 100%;
+}
