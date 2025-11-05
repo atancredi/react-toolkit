@@ -1,7 +1,7 @@
 "use client";
 
 import type { CSSProperties, PropsWithChildren } from "react";
-import "./ToolbarContainer.css";
+import "./ToolbarLayout.css";
 
 export interface ToolbarLayoutProps extends PropsWithChildren {
     className?: string
